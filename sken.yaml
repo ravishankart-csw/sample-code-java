@@ -1,0 +1,15 @@
+orgid: e05615a4-72de-4217-9f2a-d5d157e95042
+appid: 874ed428-f092-46d6-80b6-4654e879e067
+
+# optional Param section start
+
+buildtool: jenkins                # optional param, values=jenkins|travis
+scanner: sast,dast,sca            # optional param, default is ALL
+language: python,javascript       # optional param, default is Auto-Detect
+
+variables:
+  DAST_URL: https://your.url.com  # optional param
+
+# optional Param section end
+
+# end of file
