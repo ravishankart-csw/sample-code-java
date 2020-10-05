@@ -3,4 +3,4 @@ appid: 4ccbce6f-8fca-4e50-bb6c-df1dc0172e47
 
 buildtool: jenkins                # optional param, values=jenkins|travis
 scanner: sast,dast,sca            # optional param, default is ALL
-language: python,javascript,java       # optional param, default is Auto-Detect
+language: python,javascript,java      # optional param, default is Auto-Detect
